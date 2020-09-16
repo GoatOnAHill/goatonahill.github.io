@@ -1,0 +1,173 @@
+:root{
+    --nightSkyPurple: rgb(29, 3, 38);
+    --starryPink: rgb(211, 183, 220);
+    --divinityCubePurple: rgb(52, 20, 62);
+    --hiddenRuneIndigo: rgb(67, 32, 79);
+    --runicViolet: rgb(139, 101, 151);
+
+
+}
+@font-face{
+    font-family: PressStart2P-Regular;
+    src: url(PressStart2P-Regular.ttf);
+    font-weight:normal;
+}
+body{
+    background-image: url("images/starfieldUpscaled.gif");
+    margin: 0px;
+}
+h1{
+    font-family: PressStart2P-Regular;
+    font-size:400%;
+    margin-bottom:0%;
+    margin-top:0%;
+}
+.maincontent{
+    margin:0;
+}
+.navbar{
+    font-family: PressStart2P-Regular;
+    width: 722px;
+    background-color: var(--hiddenRuneIndigo);
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding:0;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider{
+    border-left:2px solid;
+    height:100%;
+    border-left-color: var(--nightSkyPurple);
+}
+.navbarSelect{
+    font-family: PressStart2P-Regular;
+    text-align: center;
+    color: var(--starryPink);
+    text-decoration: none;
+    padding: 1px 1px 1px 1px;
+    margin: 5px 5px 2px 5px;
+    transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+}
+.navbarSelect:hover{
+    text-shadow: 0 0 8px var(--starryPink);
+    transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+.webBanner{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height:142px;
+    width:722px;
+}
+.contentBlock{
+    margin-bottom: 10px;
+    margin-left:25%;
+    margin-right:25%;
+    border:3px solid var(--starryPink);
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 var(--divinityCubePurple);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: var(--hiddenRuneIndigo);
+    text-align: center;
+    color: var(--runicViolet);
+    font-family: PressStart2P-Regular;
+}
+.contentBlockAdj{
+    margin-bottom: 0;
+    margin-left:25%;
+    margin-right:25%;
+    border:3px solid var(--starryPink);
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 var(--divinityCubePurple);
+    padding-top: 15px;
+    padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: var(--hiddenRuneIndigo);
+    text-align: center;
+    color: var(--runicViolet);
+    font-family: PressStart2P-Regular;
+    position:relative;
+    z-index:1;
+}
+.flexBlock{
+    display:flex;
+}
+#imgcenter{
+    padding:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#imgLeft{
+    border: 3px solid var(--starryPink);
+    border-radius: 8px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#bottomimage{
+    bottom:0;
+    padding:0;
+    margin-bottom:0;
+}
+#headerRight{
+    margin-left:15%;
+    margin-bottom:10%;
+}
+#txtBlockRight{
+    margin-left:15%;
+}
+#hcleft{
+    background-image: url("images/HCBGleft.png");
+    width:300px;
+    height:800px;
+    position:absolute;
+    z-index: -1;
+    left:0%;
+}
+#hcright{
+    background-image: url("images/HCBGright.png");
+    width:300px;
+    height:800px;
+    position:absolute;
+    z-index: -1;
+    right:0%;
+}
+#alignRight{
+    text-align: left;
+    margin-left: 8%;
+}
+#alignLeft{
+    width:260px;
+    border: 3px solid var(--starryPink);
+    border-radius: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#hyperlink{
+    text-decoration: none;
+    color: var(--starryPink);
+    transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+}
+#hyperlink:hover{
+    text-shadow: 0 0 8px var(--starryPink);
+    transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+}
+.bottomImg{
+    height:304px;
+    background-image: url("images/lowerBorderNoHedgesAlpha.png");
+    background-repeat: repeat-x;
+}
