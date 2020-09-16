@@ -103,6 +103,11 @@ table{
 .flexBlock{
     display:flex;
 }
+.flexBlockColumn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 #imgcenter{
     padding:0;
     margin-left:auto;
@@ -145,12 +150,11 @@ table{
     right:0%;
 }
 #alignRight{
-    text-align: left;
-    margin-left: 8%;
+    text-align: center;
 }
 #alignLeft{
-    width:25%;
-    height:25%;
+    width:75%;
+    height:75%;
     border: 3px solid var(--starryPink);
     border-radius: 8px;
     padding:0;
