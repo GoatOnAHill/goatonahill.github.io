@@ -169,7 +169,7 @@ table{
     transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
 }
 .bottomImg{
-    height:304px;
+    height:302px;
     background-image: url("images/lowerBorderNoHedgesAlpha.png");
     background-repeat: repeat-x;
 }
